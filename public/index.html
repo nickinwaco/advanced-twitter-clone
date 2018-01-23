@@ -10,17 +10,18 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/jsx" src="./App.js"></script>
   </head>
   <body>
     <div id="root"></div>
     <script>
       var tweets = [
-        "ACA class was so awesome today.",
+        "ACA class was so awesome 2today.",
         "I just checked out that new restaurant, it was okay",
         "I just saw a movie that changed my life",
-        "shirts are 50% of at Macy's today"
+        "shirts are 50% of at Mddacy's today"
       ];
-    
+
     </script>
 
     <script>
@@ -36,12 +37,12 @@
     <script type="text/jsx">
     //doing the same thing in react looks like it takes the same amount if not more code
     //what is the point of using react then
-  
+
     var tweet = React.createElement("h1",null,tweets[1])
-    ReactDOM.render(
-      tweet, 
-      document.getElementById('root')
-    );
+    // ReactDOM.render(
+    // <App  />,
+    //   document.getElementById('root')
+    // );
     </script>
 
   </body>
